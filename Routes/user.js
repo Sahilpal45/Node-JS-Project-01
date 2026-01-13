@@ -12,7 +12,7 @@ router.route("/")
 .post(handleCreateNewUser)
 
 
-router.route("/:id")
+router.route("api/:id")
 .get(handlegetUserByid)
 .patch(handleupdateUserByid)
 .delete(handledleleteUserByid)
